@@ -26,4 +26,6 @@ void main() {
   const age = 18;
   // 常量的声明 final   可以将运行时的值分配给final常量
   final age2 = 18;
+  print(age);
+  print(age2);
 }
