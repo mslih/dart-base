@@ -15,12 +15,12 @@ void main() {
   print(d);
 
   // 变量不会进行隐式类型转换
-  var bool = 12;
-  if (bool) {
-    print('true');
-  } else {
-    print('false');
-  }
+  // var bool = 12;
+  // if (bool) {
+  //   print('true');
+  // } else {
+  //   print('false');
+  // }
 
   // 常量的声明 const   不能将运行时的值分配给const常量
   const age = 18;
