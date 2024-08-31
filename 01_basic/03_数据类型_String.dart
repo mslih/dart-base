@@ -23,6 +23,6 @@ void main() {
   print('abc'.isNotEmpty);
 
   //正则匹配手机号
-  var isPhone = RegExp(r'^1\d{10}$');
+  RegExp isPhone = RegExp(r'^1\d{10}$');
   print(isPhone.hasMatch('13333333333'));
 }
